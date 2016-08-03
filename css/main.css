@@ -1,0 +1,124 @@
+/* Inserta tu codigo aqui */
+/*hacer el menu estatico*/
+nav {
+ 	width: 100%;
+  	position: fixed;
+  	z-index: 100;
+}
+a{
+	text-decoration:none;
+}
+/*quita viñetas a listas*/
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+/*coloca los elementos de la lista a la izquierda*/
+li{
+	float: left;
+  	display: block;
+    padding:15px;
+}
+/*espacio entre contenidos*/
+.contenido {
+  	padding-top: 90px;
+}
+/*estilo pra el logo de la imagen*/
+.logo{
+	width: 83px;
+	height: 75px;
+	margin-left:50%; 
+}
+/*fondo blanco*/
+.bg-white{
+	background-color: white;
+}
+/*posicion del menu*/
+.posnav{
+	padding:20px 200px;
+}
+/*baner de la semilla*/
+.banner{
+	background-image: url(../img/semilla.jpg);
+	height: 350px;
+}
+/*ancjo de cabecera*/
+header{
+	height: 650px;
+}
+/*acomoda el parradodel header*/
+header p{
+	margin-top: 450px;
+}
+/*tamaño icono de mision y vision y servicios*/
+.mision{
+	width: 20%;
+}
+/*fondo verde en metodologia*/
+.fondo{
+	background-image: url(../img/fondo.jpg);
+}
+.foto{
+	background-image: url(../img/metodo.jpg);
+	background-size:cover;
+	background-repeat: no-repeat; 
+}
+/*altura de fondos de metodologia*/
+.altura{
+	height: 350px;
+}
+/*posiciona e texto de le etodologia*/
+.posmet{
+	margin-top: 70px;
+}
+.mgt{
+	margin-top: 50px;
+}
+.tam{
+	width: 60%;
+}
+/*posisiciona los letretero de secciones*/
+.pos{
+	margin-left:140px; 
+}
+/*alto de proyecto*/
+.proyec{
+	height: 700px;
+}
+/*imagenes redondas y tamaño de imagens*/
+.redondo{
+	border-radius: 100%;
+	width: 50%;
+	margin-bottom: 20px;
+}
+/*tamalo de icono de redes sociales*/
+.redes{
+	width: 7%;
+	margin-top: 20px;
+}
+/*fondo de blog*/
+.fondogris{
+	background-image: url(../img/fondo2.jpg);
+}
+/*altura de blog*/
+.blog{
+	height: 550px;
+}
+/*posisiocn de flechas desplazamiento*/
+.flecha{
+	margin-top: 150px;
+}
+/*borde para redes sociales*/
+.borde{
+	border:1px solid white;
+	height: 200px;
+}
+.social{
+	margin-top: 100px;
+	margin-left: 50%;
+}
+/*tamaño de footer*/
+footer{
+	height: 150px;
+}
+
